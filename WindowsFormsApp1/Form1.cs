@@ -40,5 +40,11 @@ namespace WindowsFormsApp1{
         private void выходToolStripMenuItem_Click(object sender, EventArgs e){
             Application.Exit();
         }
+
+        private void оПрограммеToolStripMenuItem_Click(object sender, EventArgs e){
+            Form Form2 = new Form2();
+            Form2.Show();
+            //this.Hide();
+        }
     }
 }
