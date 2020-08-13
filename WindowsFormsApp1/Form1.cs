@@ -46,5 +46,10 @@ namespace WindowsFormsApp1{
             Form2.Show();
             //this.Hide();
         }
+
+        private void добавитьToolStripMenuItem_Click(object sender, EventArgs e){
+            Form Form3 = new Form3();
+            Form3.Show();
+        }
     }
 }
